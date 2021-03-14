@@ -11,6 +11,7 @@ data/sra/*
 notebook/*/*
 
 # Ignore wiki sub-repo ===================================
+wiki
 wiki/*
 
 # AWS gitignore ===========================================
@@ -23,6 +24,8 @@ wiki/*
 # temporary files
 *scratch*
 *tmp*
+third-party
+test
 
 # R Project files
 *.Rproj
@@ -35,6 +38,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Emacs backup files
+*~
 
 # Distribution / packaging
 .Python
